@@ -38,4 +38,4 @@ Aplicación desarrollada con React que permite simular inversiones de plazo fijo
 Clonar repositorio:
 
 ```bash
-git clone 
+git clone https://github.com/DafneNahir/retoTecnico.git
