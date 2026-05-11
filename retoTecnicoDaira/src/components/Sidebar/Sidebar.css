@@ -1,0 +1,15 @@
+.sidebar {
+  width: 220px;
+  background: #020617;
+  padding: 20px;
+}
+
+.active {
+  color: #0f62fe;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    background-color: #1d2029;
+  }
+}

@@ -1,0 +1,185 @@
+.form-card {
+  background-color: #303443;
+  border-radius: 12px;
+  padding: 20px;
+  width: 50vw;
+  color: white;
+}
+
+.form-card h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.form-card label {
+  display: block;
+  font-size: 14px;
+  color: #c8c8c8;
+  margin-bottom: 8px;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 12px;
+  background-color: #1d2029;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.form-card input::placeholder {
+  color: #93959a;
+}
+
+.form-card button {
+  width: 100%;
+  background-color: #0f62fe;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-card button:hover {
+  opacity: 0.9;
+}
+
+
+
+input {
+  width: 40vw;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.input-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  flex: 1;
+}
+
+.input-icon {
+  position: relative;
+  width: 100%;
+}
+
+.input-icon img {
+  position: absolute;
+  right: 12px;
+  top: 35%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+}
+
+.input-icon input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+}
+
+.error {
+  color: #ff4d4d;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  background: #0f62fe;
+  color: white;
+  border: none;
+  padding: 12px;
+}
+
+.result-card {
+  background-color: #303443;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  color: white;
+}
+
+.result-card h2 {
+  color: #0f62fe;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.result-top {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.result-box {
+  flex: 1;
+  background-color: #1d2029;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.result-box p {
+  font-size: 14px;
+  color: #93959a;
+  margin-bottom: 8px;
+}
+
+.result-box h3 {
+  font-size: 24px;
+}
+
+.green {
+  color: #02b437;
+}
+
+.blue {
+  color: #0f62fe;
+}
+
+.result-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.result-info p {
+  font-size: 14px;
+  color: #93959a;
+}
+
+.result-info h4 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .form-card{
+    width: 90vw;
+  }
+
+  .form-card label {
+    font-size: 0.6em;
+  }
+
+  .input-icon input {
+    width: 35vw;
+    padding: 2vw;
+}
+
+  .result-top {
+    flex-direction: column;
+  }
+
+  .result-bottom {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

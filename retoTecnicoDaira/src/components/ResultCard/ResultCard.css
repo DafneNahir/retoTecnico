@@ -1,0 +1,157 @@
+.result-card {
+  background-color: #303443;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  color: white;
+}
+
+.result-card h2 {
+  color: #0f62fe;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.result-top {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.result-box {
+  flex: 1;
+  background-color: #1d2029;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #93959a;
+}
+
+.result-box h3 {
+  font-size: 24px;
+}
+
+.green {
+  color: #02b437;
+}
+
+.green p {
+  color: #02b437;
+}
+
+.blue {
+  color: #0f62fe;
+}
+
+.blue p{
+  color: #0f62fe;
+}
+
+.rendimiento {
+  display: flex;
+  align-items: baseline;
+}
+
+.rendimiento img {
+  color: #02b437;
+}
+
+.result-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.result-info p {
+  font-size: 14px;
+  color: #93959a;
+}
+
+.result-info h4 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+
+.download-btn {
+  width: auto;
+  background-color: #6c6c6c;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.download-btn:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .result-card h2 {
+    font-size: 1.25em;
+  }
+
+  .result-top {
+    flex-direction: column;
+  }
+
+  .result-bottom {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .result-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .result-info p {
+    font-size: 0.5em;
+    margin-right: 2vw;
+  }
+
+  .result-info h4 {
+    font-size: 0.5em;
+    margin: 0;
+  }
+
+  .result-box {
+    background-color: #303443;
+    padding: 0;
+  }
+
+  .green {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .p-blue {
+    display: none;
+  }
+
+  .result-box-monto {
+    display: flex;
+    font-size: 0.5em;
+    justify-content: space-between;
+  }
+
+  .result-box h3 {
+    font-size: 1.5em;
+  }
+
+  .rendimiento {
+    font-size: 1em;
+  }
+
+  .rendimiento img {
+    width: 5vw;
+  }
+
+  .download-btn {
+    display: none;
+  }
+}
